@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Seleção</title>
+    <link rel="stylesheet" href="StyleCopa.css">
+    <script src="alterarDadosSelecao.js"></script>
+
+</head>
+<body>
+    <div id="menu">
+    <ul>
+        <li><a href="cadastroSelecao.html">Cadastro</a></li>
+        <li><a href="alterarDadosSelecao.html">Alteração</a></li>
+        <li><a href="cadastroDeJogo.html">Cadastro</a></li>
+        <li><a href="resultadoDeJogo.html">Resultado de jogo</a></li>
+        <li><a href="calendarioDeTodo.html">Calendário de jogos</a></li>
+        <li><a href="calendarioDeSelecao.html">Calendário seleção</a></li>
+        <li><a href="calendarioDoGrupo.html">Jogos de grupo</a></li>
+        <li><a href="oitavasDeFinais.html">Finais</a></li>
+    </ul>
+</div> 
+  <form id="formEncontrar">
+    <fieldset>
+        <legend>Nome da Seleção a Alterar</legend>
+        <label>Seleção:</label>
+        <input type="text" placeholder="Nome da Seleção:" name="nome" id="nome"><br><br>
+        <input type="button" name="envio" value="Enviar" onclick="buscarSelecao();">
+    </fieldset>
+</form>
+<form id="formalterar">
+    <div>
+    <fieldset>
+        <legend>Alterar dados da Seleção</legend>
+        
+        <label>Nome:</label>
+        <input type="text" placeholder="Qual o Nome da seleção?" name="nomeS" id="nomeS" value=""><br><br>
+        <label>Nome do Técnico:</label>
+        <input type="text" placeholder="Qual o Nome do Técnico da Seleção?" name="tecnicoS" id="tecnicoS" value=""><br><br>
+        <label>Grupo:</label>
+        <input type="text" placeholder="Qual o Grupo da Seleção?" name="grupoS" id="grupoS" value=""><br><br>
+        <input type="button" name="envio" value="Enviar" onclick="enviarForm();">
+        </fieldset>
+    </div>
+    </form>
+</body>
+</html>
