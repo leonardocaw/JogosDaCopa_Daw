@@ -17,7 +17,7 @@
                 }
             }
 
-            xmlHttp.open("GET", "http://localhost/JogosDaCopa_Daw/alterarDadosSelecao.php?nomeS=" + nomeS);
+            xmlHttp.open("GET", "http://localhost/JogosDaCopa_Daw/encontrarSelecao.php?nomeS=" + nomeS);
             xmlHttp.send();
 
         }

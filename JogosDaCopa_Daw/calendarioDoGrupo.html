@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Calendário do Grupo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="calendarioDoGrupo.css">
+    <script src="calendarioDoGrupo.js"></script>
+</head>
+
+<body>
+    <div id="menu">
+        <ul>
+            <li><a href="cadastroSelecao.html">Cadastro</a></li>
+            <li><a href="alterarDadosSelecao.html">Alteração</a></li>
+            <li><a href="criarjogos.html">Cadastro</a></li>
+            <li><a href="resultadoDeJogo.html">Resultado de jogo</a></li>
+            <li><a href="calendarioDeTodo.html">Calendário de jogos</a></li>
+            <li><a href="calendarioDeSelecao.html">Calendário seleção</a></li>
+            <li><a href="calendarioDoGrupo.html">Jogos de grupo</a></li>
+            <li><a href="oitavasDeFinais.html">Finais</a></li>
+        </ul>
+    </div> 
+    <form id="form">
+        <fieldset>
+            <legend>Dados do Grupo</legend>
+            <label>Grupo:</label>
+            <input type="text" placeholder="Qual a letra do grupo?" name="selecao" id="selecao"><br><br>
+            <input type="button" name="envio" value="Enviar" onclick="carregaSelecao();">
+        </fieldset>
+    </form>
+
+    <table id="table">
+        <tr>
+            <th>Data</th>
+            <th>Hora</th>
+            <th>Local</th>
+            <th>Equipe A</th>
+            <th>Gols</th>
+            <th>Equipe B</th>
+            <th>Gols</th>
+        </tr>
+    </table>
+</body>
+
+</html>

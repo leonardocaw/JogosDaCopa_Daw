@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formação de Jogos</title>
+    <link rel="stylesheet" href="criarjogos.css">
+    <script src="criarjogos.js"></script>
+</head>
+<body>
+    <div id="menu">
+        <ul>
+            <li><a href="cadastroSelecao.html">Cadastro</a></li>
+            <li><a href="alterarDadosSelecao.html">Alteração</a></li>
+            <li><a href="criarjogos.html">Cadastro</a></li>
+            <li><a href="resultadoDeJogo.html">Resultado de jogo</a></li>
+            <li><a href="calendarioDeTodo.html">Calendário de jogos</a></li>
+            <li><a href="calendarioDeSelecao.html">Calendário seleção</a></li>
+            <li><a href="calendarioDoGrupo.html">Jogos de grupo</a></li>
+            <li><a href="oitavasDeFinais.html">Finais</a></li>
+        </ul>
+    </div> 
+    <form id="formcriarjogo">
+        <fieldset>
+            <legend>Informações do jogo</legend>
+
+            <label>Data:</label>
+            <input type="text" placeholder="Data do Jogo?" name="data" id="data"><br><br>
+            <label>Hora:</label>
+            <input type="text" placeholder="Hora do Jogo?" name="hora" id="hora"><br><br>
+            <label>Local:</label>
+            <input type="text" placeholder="Local do Jogo?" name="local" id="local"><br><br>
+            <label>Nome A:</label>
+            <input type="text" placeholder="Nome da seleção A?" name="selecaoA" id="selecaoA"><br><br>
+            <label>Nome B:</label>
+            <input type="text" placeholder="Nome da seleção B?" name="selecaoB" id="selecaoB"><br><br>
+            <label>Gols A:</label>
+            <input type="text" placeholder="Gols da Seleção A?" name="golsA" id="golsA"><br><br>
+            <label>Gols B:</label>
+            <input type="text" placeholder="Gols da Seleção B?" name="golsB" id="golsB"><br><br>
+            <input type="button" name="envio" value="Enviar" onclick="enviarForm();">
+        </fieldset>
+    </form>
+</body>
+</html>
