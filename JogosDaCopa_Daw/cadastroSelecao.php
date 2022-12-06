@@ -2,7 +2,7 @@
     $sevidor = "localhost";
     $user = "root";
     $pass = "";
-    $banco = "copa";
+    $banco = "copadomundo";
     
     if($_SERVER["REQUEST_METHOD"]=="GET")
     {    
