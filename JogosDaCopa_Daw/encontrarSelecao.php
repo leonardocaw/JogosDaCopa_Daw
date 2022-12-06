@@ -2,7 +2,7 @@
     $servidor = "localhost";
     $user = "root";
     $pass = "";
-    $banco = "copa";
+    $banco = "copadomundo";
     $retorno = "";
 
     if($_SERVER["REQUEST_METHOD"]=="GET")
